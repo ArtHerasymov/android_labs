@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="75dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/firstTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="10dp"
+            android:gravity="center"
+            android:minWidth="250dp"
+            android:onClick="launchTaskActivity"
+            android:text="Task1"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/secondTaskButton"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="100dp"
+            android:onClick="launchTaskActivity"
+            android:text="Task2"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/thirdTaskButton"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="10dp"
+            android:onClick="launchTaskActivity"
+            android:text="Task3"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/fourthTaskButton"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="10dp"
+            android:onClick="launchTaskActivity"
+            android:text="Task4"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
